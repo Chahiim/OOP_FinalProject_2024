@@ -36,3 +36,7 @@ QSqlDatabase Application::dbConnection() {
     return db;
 
 }
+
+void Application::verifyUserCredentials() {
+
+}

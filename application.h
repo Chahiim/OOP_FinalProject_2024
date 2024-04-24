@@ -21,6 +21,9 @@ public:
     Application(QWidget *parent = nullptr);
 
     QSqlDatabase dbConnection();
+
+    void verifyUserCredentials();
+
     ~Application();
 
 private:
